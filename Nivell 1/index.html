@@ -5,47 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <style>
-       .header
-    {
-        width: 100%;
-        background: black;
-        height: 120px;
-    }
-        .body
-    {
-        margin-top: 20px;
-        margin-left: 460px;
-    }
-        .encabezado
-    {
-        width: 198px;
-        background-color: grey;
-        height: 47px;
-    }
-        .navegation
-        {
-            display: flex;
-            
-        }
+    <style>
+        body { width: 100%; height: 53.02%; background-color: grey;}
+        
+        div#header {width: 80%;height: 120px;margin-top: 1.96%; margin-left: 10%;margin-right: 10%; background-color: #424242; display: flex; align-items: center;justify-content: space-between;}
+        div#logo {width: 20%; height: 60px; margin-top: 2.5%;margin-bottom: 2.5%; margin-left: 3%; background-color: #d8d8d8;}
+        div#facebook {width: 40px;height: 40px; border-radius: 50%; background-color: #d8d8d8;}
+        div#twitter {width: 40px;height: 40px;border-radius: 50%;background: #d8d8d8;}
+        div#instagram {width: 40px;height: 40px;border-radius: 50%;background: #d8d8d8;}
+        .rrss{margin-right: 8%; display: flex; row-gap: 8%;}
+        div#social{display: flex;}
+
+        div#nav {width:80%; height: 48px; margin-top: 20px; margin-left:10%; margin-right:10%;display: flex;}
+        .navegacion{margin: 1px;}
+        div#box1 {width: 20%;height: 100%; background-color: #a4a4a4;}
+        div#box2 {width: 20%;height: 100%; background-color: #a4a4a4;}
+        div#box3 {width: 20%;height: 100%; background-color: #a4a4a4;}
+        div#box4 {width: 20%;height: 100%; background-color: #a4a4a4;}
+        div#box5 {width: 20%;height: 100%; background-color: #a4a4a4;}
+
+        div#section1 {width: 80%; height: 191px; margin-top: 25px; margin-left: 10%; margin-right: 10%; display: flex; justify-content: space-between;}
+        .sec1 {gap: 10px;}
+        div#box6 {width: 32.9%;height: 100%; background-color: #a4a4a4;}
+        div#box7 {width: 32.9%;height: 100%; background-color: #a4a4a4;}
+        div#box8 {width: 32.9%;height: 100%; background-color: #a4a4a4;}
+
+        div#section2 {width: 80%; height: 453px; margin-top: 25px; margin-left: 10%; margin-right: 10%;}
+        div#aside {width: 100%; height: 100%; background-color: #a4a4a4;}
+        .artic {margin-left: 20%; }
+        div#article {width: 60%; height: 100%;background-color: #424242;}
+
+        div#footer {width: 80%; height: 73px; margin-top: 24px; margin-left: 10%;background-color: #424242;}
+
     </style>
 </head>
-
 <body>
-<div class="body">
-    <div class="header">
+    <div id="contenedor">
+        <div id="header">
+            <div id="logo"> </div>
+            <div id="social">
+                <div id="facebook" class="rrss"></div>
+                <div id="twitter" class="rrss"></div>
+                <div id="instagram" class="rrss"></div>
+            </div>
+            
+        </div>
+        <div id="nav">
+            <div id="box1" class="navegacion"> </div>
+            <div id="box2" class="navegacion"> </div>
+            <div id="box3" class="navegacion"> </div>
+            <div id="box4" class="navegacion"> </div>
+            <div id="box5" class="navegacion"> </div>
+        </div>
+        <div id="section1">
+            <div id="box6" class="sec1"> </div>
+            <div id="box7" class="sec1"> </div>
+            <div id="box8" class="sec1"> </div>
+        </div>
+        <div id="section2">
+            <div id="aside"> 
+                <div id="article" class="artic"> </div>
+            </div>
+        </div>
+        <div id="footer"> 
 
+        </div>
     </div>
-    <div class ="navegation">
-<div class="encabezado"></div>
-<div class="encabezado"></div>
-<div class="encabezado"></div>
-<div class="encabezado"></div>
-<div class="encabezado"></div>
-    </div>
-    <div></div>
-    <div></div>
-    <div></div>
-</div>
 </body>
 </html>
